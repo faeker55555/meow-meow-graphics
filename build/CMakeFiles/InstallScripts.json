@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/artem/silly_stuff/build/cmake_install.cmake",
+		"/home/artem/silly_stuff/build/third_party/minifb/cmake_install.cmake",
+		"/home/artem/silly_stuff/build/third_party/minifb/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
