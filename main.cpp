@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include "primitives.hpp"
+#include "text_rendering.hpp"
 
 int WIDTH = 800;
 int HEIGHT = 600;
@@ -25,7 +26,7 @@ int main() {
         frame_counter++;
         Frame current_frame(HEIGHT,WIDTH);
 
-        // test loop setting frame to UV + B as time
+        // test loop setting frame to UV + Blue as time
         for (int y = 0; y < HEIGHT; ++y) {
             for (int x = 0; x < WIDTH; ++x) {
                 uint8_t r = (x * 255) / WIDTH;
@@ -33,10 +34,14 @@ int main() {
                 uint8_t b = frame_counter;
                 uint8_t a = 255;
                 Fragment out = {vec4((float)(r),(float)(g),(float)(b),(float)(a)), 1};
-
+                
                 current_frame.pixels[y * WIDTH + x] = out;
+                
             }
         }
+
+        draw_string_at("FAEK OS, VERSION 0.1 FRAME: " + std::to_string(static_cast<int>(frame_counter)), 100, 108, &current_frame);
+
         from_frame(current_frame, &draw_buffer);
 
         int state = mfb_update_ex(window, draw_buffer.data(), WIDTH, HEIGHT);

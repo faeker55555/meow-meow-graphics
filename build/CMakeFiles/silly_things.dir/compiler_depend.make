@@ -3,6 +3,8 @@
 
 CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
   /home/artem/silly_stuff/primitives.hpp \
+  /home/artem/silly_stuff/text.hpp \
+  /home/artem/silly_stuff/text_rendering.hpp \
   /home/artem/silly_stuff/third_party/minifb/include/MiniFB.h \
   /home/artem/silly_stuff/third_party/minifb/include/MiniFB_cpp.h \
   /home/artem/silly_stuff/third_party/minifb/include/MiniFB_enums.h \
@@ -297,11 +299,7 @@ third_party/minifb/libminifb.a:
 
 /usr/lib/libXau.so.6:
 
-/usr/include/c++/16/bits/ostream_insert.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/lib/Scrt1.o:
+/usr/lib/libX11.so:
 
 /usr/include/c++/16/bits/ostream.h:
 
@@ -340,6 +338,12 @@ third_party/minifb/libminifb.a:
 /usr/include/asm/posix_types_64.h:
 
 /usr/include/c++/16/system_error:
+
+/usr/lib/libXrender.so:
+
+/usr/lib/libOpenGL.so:
+
+/home/artem/silly_stuff/third_party/minifb/include/MiniFB_keylist.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -381,6 +385,12 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/ios_base.h:
 
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/16/bits/ostream_insert.h:
+
+/usr/lib/Scrt1.o:
+
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
@@ -399,7 +409,7 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/endianness.h:
 
@@ -431,13 +441,15 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/asm-generic/int-ll64.h:
 
+/usr/include/c++/16/bits/functional_hash.h:
+
 /usr/include/c++/16/bits/nested_exception.h:
 
 /usr/include/c++/16/bits/allocator.h:
 
-/home/artem/silly_stuff/third_party/minifb/include/MiniFB.h:
-
 /usr/include/bits/time64.h:
+
+/home/artem/silly_stuff/third_party/minifb/include/MiniFB.h:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -455,17 +467,17 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_tm.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/bits/byteswap.h:
 
-/usr/include/ctype.h:
+/usr/include/c++/16/bits/requires_hosted.h:
 
-/usr/include/bits/floatn-common.h:
+/home/artem/silly_stuff/text.hpp:
 
-/usr/include/c++/16/bits/enable_special_members.h:
+/usr/include/bits/time.h:
 
-/usr/include/c++/16/bits/ptr_traits.h:
+/usr/include/asm/posix_types.h:
 
-/usr/include/bits/long-double.h:
+/usr/include/bits/types/locale_t.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
@@ -473,23 +485,9 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /home/artem/silly_stuff/third_party/minifb/include/MiniFB_cpp.h:
 
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/c++/16/bits/requires_hosted.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
 /usr/lib/libxcb.so.1:
 
 /usr/include/bits/endian.h:
-
-/usr/include/c++/16/bits/functional_hash.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -509,6 +507,18 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/bits/stdint-least.h:
 
+/usr/include/bits/waitflags.h:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/16/bits/enable_special_members.h:
+
+/usr/include/c++/16/bits/ptr_traits.h:
+
+/usr/include/bits/long-double.h:
+
 /usr/lib/libm.so.6:
 
 /home/artem/silly_stuff/third_party/minifb/include/MiniFB_macros.h:
@@ -523,13 +533,19 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/stdexcept:
 
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/c++/16/bits/new_except.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
 /usr/include/c++/16/bits/exception_defines.h:
 
 /usr/include/c++/16/bits/vector.tcc:
 
 /usr/include/bits/floatn.h:
 
-/usr/include/asm/bitsperlong.h:
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
@@ -557,10 +573,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/c++/16/bits/new_except.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
-
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/wchar.h:
@@ -585,9 +597,9 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
-
 /usr/include/asm/errno.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
 
 /usr/include/bits/stdint-uintn.h:
 
@@ -665,6 +677,8 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/streambuf_iterator.h:
 
+/home/artem/silly_stuff/text_rendering.hpp:
+
 /usr/include/c++/16/bits/uses_allocator_args.h:
 
 /usr/include/c++/16/bits/version.h:
@@ -696,8 +710,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/include/c++/16/bits/unordered_map.h:
 
 /usr/include/c++/16/ext/alloc_traits.h:
-
-/usr/lib/libX11.so:
 
 /usr/include/asm-generic/types.h:
 
@@ -790,12 +802,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/include/sys/select.h:
 
 /usr/include/sys/single_threaded.h:
-
-/usr/lib/libXrender.so:
-
-/home/artem/silly_stuff/third_party/minifb/include/MiniFB_keylist.h:
-
-/usr/lib/libOpenGL.so:
 
 /usr/include/time.h:
 

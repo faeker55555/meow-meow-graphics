@@ -4,6 +4,8 @@
 CMakeFiles/silly_things.dir/main.cpp.o
  /home/artem/silly_stuff/main.cpp
  /home/artem/silly_stuff/primitives.hpp
+ /home/artem/silly_stuff/text.hpp
+ /home/artem/silly_stuff/text_rendering.hpp
  /home/artem/silly_stuff/third_party/minifb/include/MiniFB.h
  /home/artem/silly_stuff/third_party/minifb/include/MiniFB_cpp.h
  /home/artem/silly_stuff/third_party/minifb/include/MiniFB_enums.h

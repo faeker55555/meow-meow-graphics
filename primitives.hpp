@@ -76,6 +76,9 @@ struct Fragment {
     float depth;
 };
 
+#define FRAGMENT_WHITE Fragment{ vec4(255.0f, 255.0f, 255.0f, 255.0f), (float)(0.0f) }
+#define FRAGMENT_BLACK Fragment{ vec4(0.0f, 0.0f, 0.0f, 1.0f), (float)(0.0f) }
+
 struct Frame {
     int height = 16;
     int width = 9;

@@ -163,4 +163,6 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc \
- /home/artem/silly_stuff/primitives.hpp
+ /home/artem/silly_stuff/primitives.hpp \
+ /home/artem/silly_stuff/text_rendering.hpp \
+ /home/artem/silly_stuff/text.hpp
