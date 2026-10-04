@@ -162,7 +162,10 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc \
+ /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/chrono \
+ /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
+ /usr/include/c++/16/cstdint /usr/include/c++/16/limits \
+ /usr/include/c++/16/ctime /usr/include/c++/16/bits/parse_numbers.h \
  /home/artem/silly_stuff/primitives.hpp \
  /home/artem/silly_stuff/text_rendering.hpp \
  /home/artem/silly_stuff/text.hpp

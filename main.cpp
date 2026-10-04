@@ -1,6 +1,7 @@
 #include "MiniFB.h"
 #include <vector>
 #include <iostream>
+#include <chrono>
 #include "primitives.hpp"
 #include "text_rendering.hpp"
 
@@ -20,11 +21,12 @@ int main() {
     }
 
     std::vector<uint32_t> draw_buffer(WIDTH * HEIGHT);
-    uint8_t frame_counter = 0;
+    uint64_t frame_counter = 0;
+    Frame current_frame(HEIGHT,WIDTH);
 
     while (true) {
+        auto start = std::chrono::steady_clock::now();
         frame_counter++;
-        Frame current_frame(HEIGHT,WIDTH);
 
         // test loop setting frame to UV + Blue as time
         for (int y = 0; y < HEIGHT; ++y) {
@@ -42,7 +44,13 @@ int main() {
 
         draw_string_at("FAEK OS, VERSION 0.1 FRAME: " + std::to_string(static_cast<int>(frame_counter)), 100, 108, &current_frame);
 
+        auto end = std::chrono::steady_clock::now();
+
+        draw_string_at("MS: " + std::to_string(static_cast<int>(std::chrono::duration_cast<std::chrono::milliseconds>(end-start).count())), 100, 116, &current_frame);
+
+
         from_frame(current_frame, &draw_buffer);
+
 
         int state = mfb_update_ex(window, draw_buffer.data(), WIDTH, HEIGHT);
 

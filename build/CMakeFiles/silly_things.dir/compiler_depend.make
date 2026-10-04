@@ -97,6 +97,7 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
   /usr/include/c++/16/bits/basic_string.tcc \
   /usr/include/c++/16/bits/char_traits.h \
   /usr/include/c++/16/bits/charconv.h \
+  /usr/include/c++/16/bits/chrono.h \
   /usr/include/c++/16/bits/concept_check.h \
   /usr/include/c++/16/bits/cpp_type_traits.h \
   /usr/include/c++/16/bits/cxxabi_forced.h \
@@ -131,6 +132,7 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
   /usr/include/c++/16/bits/ostream.tcc \
   /usr/include/c++/16/bits/ostream_insert.h \
   /usr/include/c++/16/bits/ostream_print.h \
+  /usr/include/c++/16/bits/parse_numbers.h \
   /usr/include/c++/16/bits/postypes.h \
   /usr/include/c++/16/bits/predefined_ops.h \
   /usr/include/c++/16/bits/ptr_traits.h \
@@ -164,12 +166,15 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
   /usr/include/c++/16/bits/version.h \
   /usr/include/c++/16/cctype \
   /usr/include/c++/16/cerrno \
+  /usr/include/c++/16/chrono \
   /usr/include/c++/16/clocale \
   /usr/include/c++/16/compare \
   /usr/include/c++/16/concepts \
   /usr/include/c++/16/cstddef \
+  /usr/include/c++/16/cstdint \
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
+  /usr/include/c++/16/ctime \
   /usr/include/c++/16/cwchar \
   /usr/include/c++/16/cwctype \
   /usr/include/c++/16/debug/assertions.h \
@@ -187,9 +192,11 @@ CMakeFiles/silly_things.dir/main.cpp.o: /home/artem/silly_stuff/main.cpp \
   /usr/include/c++/16/iosfwd \
   /usr/include/c++/16/iostream \
   /usr/include/c++/16/istream \
+  /usr/include/c++/16/limits \
   /usr/include/c++/16/new \
   /usr/include/c++/16/ostream \
   /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/ratio \
   /usr/include/c++/16/stdexcept \
   /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
@@ -301,11 +308,15 @@ third_party/minifb/libminifb.a:
 
 /usr/lib/libX11.so:
 
-/usr/include/c++/16/bits/ostream.h:
+/usr/lib/libGLdispatch.so.0:
 
-/usr/include/c++/16/bits/predefined_ops.h:
+/usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/libgcc_s.so.1:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
 /usr/include/c++/16/bits/move.h:
 
@@ -349,7 +360,13 @@ third_party/minifb/libminifb.a:
 
 /usr/include/c++/16/bits/cxxabi_init_exception.h:
 
+/usr/lib/libGLX.so:
+
+/usr/include/bits/types/struct_sched_param.h:
+
 /usr/include/c++/16/bits/concept_check.h:
+
+/usr/include/c++/16/bits/chrono.h:
 
 CMakeFiles/silly_things.dir/main.cpp.o:
 
@@ -358,8 +375,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/include/c++/16/bits/basic_string.h:
 
 /usr/include/c++/16/ios:
-
-/usr/include/c++/16/bits/basic_ios.tcc:
 
 /usr/include/c++/16/bits/basic_ios.h:
 
@@ -453,6 +468,8 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/bits/stdlib-float.h:
 
+/usr/include/c++/16/ratio:
+
 /usr/include/c++/16/bits/cpp_type_traits.h:
 
 /usr/include/bits/wctype-wchar.h:
@@ -499,8 +516,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/asm/types.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
-
 /usr/include/alloca.h:
 
 /usr/include/c++/16/bits/hashtable.h:
@@ -536,8 +551,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/16/bits/new_except.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
 /usr/include/c++/16/bits/exception_defines.h:
 
@@ -607,17 +620,23 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/clocale:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
-
 /usr/include/bits/stdlib-bsearch.h:
 
 /usr/include/bits/types.h:
 
 /usr/include/bits/types/__locale_t.h:
 
+/usr/include/c++/16/bits/ostream.h:
+
+/usr/include/c++/16/bits/predefined_ops.h:
+
+/usr/lib/libgcc_s.so.1:
+
 /usr/include/c++/16/bits/hashtable_policy.h:
 
 /usr/include/c++/16/bits/ostream_print.h:
+
+/usr/include/c++/16/bits/parse_numbers.h:
 
 /usr/lib32/libXau.so.6:
 
@@ -683,6 +702,10 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/version.h:
 
+/usr/include/c++/16/chrono:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
+
 /usr/lib/libc.so.6:
 
 /usr/include/c++/16/tuple:
@@ -693,11 +716,17 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/include/c++/16/cstddef:
 
+/usr/include/c++/16/bits/basic_ios.tcc:
+
+/usr/include/c++/16/cstdint:
+
 /usr/include/c++/16/cstdio:
 
 /usr/include/bits/stdio_lim.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
+
+/usr/include/c++/16/ctime:
 
 /usr/include/linux/sched/types.h:
 
@@ -736,6 +765,8 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/include/c++/16/functional:
 
 /usr/include/c++/16/iostream:
+
+/usr/include/c++/16/limits:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -809,8 +840,6 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h:
 
 /usr/include/bits/pthreadtypes.h:
@@ -820,11 +849,3 @@ CMakeFiles/silly_things.dir/main.cpp.o:
 /usr/lib/libm.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/lib/libGLX.so:
-
-/usr/lib/libGLdispatch.so.0:
